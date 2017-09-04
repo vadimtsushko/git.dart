@@ -7,7 +7,7 @@ import 'package:which/which.dart';
 
 import 'util.dart';
 
-String _gitCache;
+String _gitCache = 'git';
 
 Future<String> _getGit() async {
   if (_gitCache == null) {
